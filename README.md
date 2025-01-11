@@ -24,30 +24,12 @@
 
 1. Uruchom serwer deweloperski:
    ```bash
-   npm start
+   npm run dev
    ```
 2. Otwórz przeglądarkę i przejdź do:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
-
-## Budowanie aplikacji
-
-Aby zbudować aplikację do wdrożenia, użyj:
-
-```bash
-npm run build
-```
-
-Wynikowy kod będzie znajdował się w folderze `build`.
-
-## Testowanie
-
-Aby uruchomić testy, użyj:
-
-```bash
-npm test
-```
 
 ## Autorzy
 
