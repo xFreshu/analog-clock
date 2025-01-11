@@ -1,8 +1,58 @@
-# React + Vite
+# Analogowy Zegar - Aplikacja React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Wymagania
 
-Currently, two official plugins are available:
+- Node.js (wersja 14 lub wyższa)
+- npm (wersja 6 lub wyższa)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalacja
+
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/xFreshu/analog-clock.git
+   ```
+2. Przejdź do katalogu projektu:
+   ```bash
+   cd analog-clock
+   ```
+3. Zainstaluj zależności:
+   ```bash
+   npm install
+   ```
+
+## Uruchomienie aplikacji
+
+1. Uruchom serwer deweloperski:
+   ```bash
+   npm start
+   ```
+2. Otwórz przeglądarkę i przejdź do:
+   ```
+   http://localhost:3000
+   ```
+
+## Budowanie aplikacji
+
+Aby zbudować aplikację do wdrożenia, użyj:
+
+```bash
+npm run build
+```
+
+Wynikowy kod będzie znajdował się w folderze `build`.
+
+## Testowanie
+
+Aby uruchomić testy, użyj:
+
+```bash
+npm test
+```
+
+## Autorzy
+
+- Łukasz Przybysz - [Twój Profil GitHub](https://github.com/xFreshu)
+
+## Licencja
+
+Ten projekt jest licencjonowany na warunkach licencji MIT.
